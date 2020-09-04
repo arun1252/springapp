@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: List
+items:
+- kind: ProjectRequest
+  apiVersion: v1
+  metadata:
+    name: spring-boot-data-jpa-liberty-build
+    creationTimestam: null
+  displayName: spring-boot-data-jpa on Liberty - Build
+- kind: ProjectRequest
+  apiVersion: v1
+  metadata:
+    name: spring-boot-data-jpa-liberty-dev
+    creationTimestam: null
+  displayName: spring-boot-data-jpa on Liberty - Dev
+- kind: ProjectRequest
+  apiVersion: v1
+  metadata:
+    name: spring-boot-data-jpa-liberty-stage
+    creationTimestam: null
+  displayName: spring-boot-data-jpa on Liberty - Stage
+- kind: ProjectRequest
+  apiVersion: v1
+  metadata:
+    name: spring-boot-data-jpa-liberty-prod
+    creationTimestam: null
+  displayName: spring-boot-data-jpa on Liberty - Prod
