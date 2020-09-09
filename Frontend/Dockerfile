@@ -4,4 +4,4 @@ ADD package.json package.json
 RUN npm install
 COPY . .
 RUN npm install -g @angular/cli
-CMD ng serve --port 8081 --host 0.0.0.0
+CMD ng serve --port 8081 --host 0.0.0.0 --disableHostCheck true
